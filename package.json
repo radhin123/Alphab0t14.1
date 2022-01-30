@@ -59,6 +59,8 @@
     "twitter-url-direct": "^1.0.1",
     "node-webpmux":"latest",
     "xfarr-api": "^1.0.2",
+    "ytdl-core":"latest",
+    "yt-search": "^2.7.6"
   },
   "scripts": {
     "start": "node zeeone",
