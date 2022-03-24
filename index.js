@@ -2369,7 +2369,7 @@ ini_anu =`${ucapannya2}
 ╰❒ Owner : ${isOwner ? 'True' : `False`}
 `
 if(typemenu == 'document'){
-sendButDoc(from, ini_anu, `Please Don't spam bot, pause 3 seconds per command!\n`, sender, koko, ini_mark)
+sendButDoc(from, ini_anu, `Create by Radhin Al haady dan Damar\n`, sender, koko, ini_mark)
 } 
 if(typemenu == 'troli'){
 sendTroli(allmenu(kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii))
@@ -2406,7 +2406,7 @@ const btn1 = {
 }
 
 alpha.sendMessage(from,  btn1, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k21',
+        caption: '© Leviathan',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
