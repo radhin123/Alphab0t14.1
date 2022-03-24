@@ -189,14 +189,14 @@ offline = false
 readGc = true 
 readPc = false 
 antitrol = false 
-bugc = false
+bugc = true
 autovn = true
 autoketik = false
 autoregister = setting.user_register
 typemenu = 'document'
 img = setting.img
 baper = setting.ownername
-apiku = 'https://github.com/radhin123/'
+apiku = 'https://radhin123.github.io/'
 gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
@@ -1280,7 +1280,7 @@ if (autobio === false) return
     if (new Date() * 1 - settingstatus > 1000) {
       let _uptime = process.uptime() * 1000;
       let uptimer = clockString(_uptime);
-      await alpha.setStatus(`Alya chan Bot WhatsApp🤞 | Runtime ${uptimer} ⏲️ | ${status} By Radhin Al haady & Alya putri zayyan`).catch((_) => _);
+      await alpha.setStatus(`L Bots WhatsApp | Runtime ${uptimer} ⏲️ | ${status} By Radhin & Damar`).catch((_) => _);
       settingstatus = new Date() * 1;
     }}
 		mess = {
@@ -2803,7 +2803,7 @@ case 'bcgif':
 					for (let i of ini_ownerNumber) {
 					const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
-					"displayName": 'Owner Alphabot',
+					"displayName": 'Owner ',
 					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: Ownership;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
@@ -2811,7 +2811,7 @@ case 'bcgif':
 					"displayName": `${ini_list.length} kontak`,
 					"contacts": ini_list 
 					}, 'contactsArrayMessage', { quoted: fkontak})
-					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku, jangan lupa donasi kak😇`
+					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku, jangan lupa donasi kak`
 var buttonss = [
 {buttonId: 'donasi', buttonText:{displayText: 'Donasi'}, type: 1},
 {buttonId: 'sewabot', buttonText:{displayText: 'Sewa'}, type: 1}
