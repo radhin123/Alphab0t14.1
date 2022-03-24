@@ -2394,7 +2394,7 @@ let bacotlu1 = media1.message["ephemeralMessage"] ? media1.message.ephemeralMess
 const buttons1 = [
   {buttonId: 'owner', buttonText: {displayText: '⋮☰ OWNER'}, type: 1},
   {buttonId: 'botstat', buttonText:{displayText: '✓ STATISTIC'}, type: 1},
-  {buttonId: 'Command', buttonText: {displayText: '❍ LIST MESSAGE'}, type: 1}
+  {buttonId: 'allmenu', buttonText: {displayText: '❍ LIST MESSAGE'}, type: 1}
 ]
 
 const btn1 = {
@@ -2560,6 +2560,8 @@ break
 					await limitAdd(sender, limit)}
 					break 
 					case 'jadian':
+					case 'jadiin':
+					case 'jodohku':
 					if (isLimit(sender, isPremium, isCreator, isOwner, limitawal, limit)) return sendButMessage(from, lang.limit(prefix), `© ${ownername}`, [{buttonId: 'limit', buttonText: {displayText: `Check Limit`, },type: 1,}]);
 jds = []
 jdii = groupMembers
