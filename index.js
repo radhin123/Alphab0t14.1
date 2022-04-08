@@ -2344,6 +2344,7 @@ koko = `${targetpc}@s.whatsapp.net`
 let content = fs.readFileSync(`image/${thumbnail}`)
 const media = await alpha.prepareMessage(from, content, MessageType.image, { thumbnail:fs.readFileSync(`image/${thumbnail}`)})
 let bacotlu = media.message["ephemeralMessage"] ? media.message.ephemeralMessage : media
+yu = fs.readFileSync('./audio/senja_Three_Anita.mp3')
 let p1 = await alpha.getStatus(sender)
 anunya = process.uptime()
 ini_anu =`${ucapannya2}
